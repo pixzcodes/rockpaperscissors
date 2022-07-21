@@ -63,6 +63,9 @@ function game () { // main game function
     if (playerScore > computerScore){
         console.log('The Player!')
     }
+    if (playerScore == computerScore){
+        console.log('No one! Its a tie!')
+    }
 }
 
 
